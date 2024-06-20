@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               <p
                 className={`py-3 text-sm font-semibold text-gray-400 border-b-[3px] 
               border-transparent hover:border-b-2 
-              ${pathname === item.href ? "border-red-500 text-slate-950" : ""}`}
+              ${pathname === item.href ? "border-y-red-400 text-slate-950" : ""}`}
               >
                 {item.label}
               </p>
